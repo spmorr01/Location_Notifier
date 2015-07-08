@@ -6,7 +6,8 @@
     <Button android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Select a Contact"
-        android:onClick="onClickSelectContact" />
+        android:clickable="true"
+        android:onClick="onClickSelectionContact" />
 
     <ImageView android:id="@+id/img_contact"
         android:layout_height="wrap_content"
